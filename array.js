@@ -1,39 +1,40 @@
 var arrName = ['Rahim', 'Karim', 'Rafiq', 'Jabbar'];
-arrName.push('arif')
+arrName.push('arif') // in the array, add new element in last
 // console.log(arrName);
 
 var arrName = ['Rahim', 'Karim', 'Rafiq', 'Jabbar'];
-arrName.pop('karim')
+arrName.pop('Jabbar') // remove last element from the array
 // console.log(arrName);
 
 var arrName = ['Rahim', 'Karim', 'Rafiq', 'Jabbar'];
 for(var i = 0; i < arrName.length; i++) {
-    // console.log('Name: ' + arrName[i]);
+    // console.log(arrName[i]);
  }
 
  var arrName = ['Rahim', 'Karim', 'Rafiq', 'Jabbar'];
- arrName.shift();
+ arrName.shift(); //removes the first item of the array.
 //  console.log(arrName);
 
  var arrName = ['Rahim', 'Karim', 'Rafiq', 'Jabbar'];
- arrName.unshift('arif');
+ arrName.unshift('arif'); // adds new elements to the beginning of an array.
 //  console.log(arrName);
 
  var arrName = ['Rahim', 'Karim', 'Rafiq', 'Jabbar'];
- arrName.indexOf('Rafiq');
+ arrName.indexOf('Rafiq'); // check element position  of the array
 //  console.log( arrName.indexOf('Rafiq'));
 
 var arrName = ['Rahim', 'Karim', 'Rafiq', 'Jabbar'];
-// console.log(arrName.splice(-3));
+arrName.splice(2, 0, 'arif'); //adds and/or removes array elements.
+// console.log(arrName)
 
 var arrName = ['Rahim', 'Karim', 'Rafiq', 'Jabbar'];
-var newarrName = arrName.splice(1)
-console.log(newarrName);
+var newarrName = arrName.splice(1) //remove first element from the array
+// console.log(newarrName);
 
 var arrName = ['Rahim', 'Karim', 'Rafiq', 'Jabbar'];
 var newarrName = arrName.slice(0,2)
 // console.log(newarrName);
 
-var arrName = ['Rahim', 'Karim', 'Rafiq', 'Jabbar'];
-arrName[3]='Arif'
-// console.log(arrName);
+var arrName = ['Rahim', 'Karim', 'Rafiq', 'Jabbar' , 'jobair'];
+arrName[3]='Arif' // change element of the array
+console.log(arrName);
