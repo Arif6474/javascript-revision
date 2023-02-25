@@ -12,11 +12,15 @@ TEST DATA 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1
 
 GOOD LUCK 😀
 */
+// solution of challenge one
+/*
+const markMass = 78;
+const jhonMass= 92;
+const markHeight = 1.69;
+const jhonHeight = 1.95;
+*/
 
-// const markMass = 78;
-// const jhonMass= 92;
-// const markHeight = 1.69;
-// const jhonHeight = 1.95;
+/*
 const markMass = 95;
 const jhonMass= 85;
 const markHeight = 1.88;
@@ -26,4 +30,41 @@ const markHeigherBMI= markMass   / (markHeight ** 2)
 const jhonHeigherBMI= jhonMass  / (jhonHeight ** 2)
 const markHigherBMI = markHeigherBMI > jhonHeigherBMI
 console.log(markHeigherBMI , jhonHeigherBMI ,markHigherBMI);
+*/
 
+
+////////////////////////////////////
+// Coding Challenge #2
+
+/*
+Use the BMI example from Challenge #1, and the code you already wrote, and improve it:
+
+1. Print a nice output to the console, saying who has the higher BMI. The message can be either "Mark's BMI is higher than John's!" or "John's BMI is higher than Mark's!"
+2. Use a template literal to include the BMI values in the outputs. Example: "Mark's BMI (28.3) is higher than John's (23.9)!"
+
+HINT: Use an if/else statement 😉
+
+GOOD LUCK 😀
+*/
+
+/*
+
+// solution of challenge two
+const markMass = 78;
+const jhonMass= 92;
+const markHeight = 1.69;
+const jhonHeight = 1.95; 
+// const markMass = 95;
+// const jhonMass= 85;
+// const markHeight = 1.88;
+// const jhonHeight = 1.76;
+
+const markHeigherBMI= markMass   / (markHeight ** 2)
+const jhonHeigherBMI= jhonMass  / (jhonHeight ** 2)
+
+if ( markHeigherBMI > jhonHeigherBMI) {
+    console.log(`Mark's BMI (${markHeigherBMI}) is higher than John's! (${jhonHeigherBMI})`);
+}else{
+    console.log(`John's BMI (${markHeigherBMI}) is higher than Mark's! (${jhonHeigherBMI})`);
+}
+*/
