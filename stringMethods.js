@@ -18,3 +18,7 @@ const stringSliced = string.slice(1, 10)
 //substring
 const stringSubtring = string.substring(2,6)
 // console.log(stringSubtring)
+
+let text = "Please locate where 'locate' occurs!";
+let index = text.lastIndexOf("locate");
+console.log("🚀 ~ file: stringMethods.js:24 ~ index:", index)
